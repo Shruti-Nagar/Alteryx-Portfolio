@@ -2,7 +2,8 @@
 
 ## 1. [User-Driven Decision Paths in Workflow Automation](https://medium.com/@shrutingr001/alteryx-series-part-i-analytic-apps-ca79d4e30400)
 ![Conditional Routing](https://github.com/Shruti-Nagar/pictures/blob/main/Conditional%20Routing.PNG)
-### ![Alteryx Workflow](https://github.com/Shruti-Nagar/pictures/blob/main/Insurance%20Claims.PNG)
+### [Workflow](https://github.com/Shruti-Nagar/Alteryx-Portfolio/blob/main/conditional%20routing.yxwz)
+
 ### Project Summary:
 This project highlights the power of interactive, user-controlled automation within Alteryx. It utilizes a flexible and dynamic workflow to analyze airline performance data, allowing users to choose their own path of analysis—either by Airport or Airline—through interface tools.
 
@@ -43,7 +44,7 @@ This project demonstrates how to parse and transform complex PDF-converted insur
 
 ### Goal:
 To extract and summarize claim amounts based on Accident Month while aligning them with the Inception Date of the insurance policy.
-
+![Alteryx Workflow](https://github.com/Shruti-Nagar/pictures/blob/main/Insurance%20Claims.PNG)
 
 ### Key Workflow Highlights:
 
