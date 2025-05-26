@@ -11,24 +11,17 @@ This project highlights the power of interactive, user-controlled automation wit
 To enable dynamic and customizable data exploration based on user selections, without modifying the core workflow logic.
 
 ### Key Workflow Highlights:
-
 #### Interface Tools Integration:
 Used List Box, Radio Button, and Action tools to create a user-friendly interface for choosing between different decision paths (by Airport or Airline).
-
 #### Conditional Workflow Execution:
 Implemented Enable/Disable Container logic to conditionally run different parts of the workflow based on user inputs.
-
 #### Customizable Analysis Paths:
-
 Airport Path: Filters by selected airport codes and shows the top 10 airports based on domestic flight volume.
-
 Airline Path: Filters by selected airline(s) and displays the first 10 records in ascending date order.
-
 #### Data Summarization & Filtering:
 Applied Summarize and Sample tools to show only the most relevant records per user selection.
 
 ### Tools & Techniques Used:
-
 - Interface tools for user interaction
 - Conditional logic containers
 - Dynamic filtering with action updates
@@ -47,29 +40,20 @@ To extract and summarize claim amounts based on Accident Month while aligning th
 ![Alteryx Workflow](https://github.com/Shruti-Nagar/pictures/blob/main/Insurance%20Claims.PNG)
 
 ### Key Workflow Highlights:
-
 #### Data Preprocessing:
 Cleaned and normalized unstructured PDF data by replacing special characters and handling null or empty fields.
-
 #### Parsing Logic:
 Utilized conditional logic and filters to isolate key fields like "Inception Date" and "Accident Month". Applied string manipulation to derive month-level data.
-
 #### Data Transformation:
 Transformed values into numeric formats, parsed date fields, and created structured outputs from originally messy PDF data.
-
 #### Aggregation & Summarization:
 Grouped data by Accident Month and summarized total amounts, further sorting and aligning them with policy inception timelines.
 
 ### Tools & Techniques Used:
-
 - Multi-row formula and conditional logic
-
 - String parsing and field cleansing
-
 - Date formatting and conversion
-
 - Aggregation using Summarize tool
-
 - Data sorting and output preparation
 
 ### Outcome:
