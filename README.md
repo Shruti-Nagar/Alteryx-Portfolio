@@ -2,8 +2,40 @@
 
 ## 1. [User-Driven Decision Paths in Workflow Automation](https://medium.com/@shrutingr001/alteryx-series-part-i-analytic-apps-ca79d4e30400)
 ![Conditional Routing](https://github.com/Shruti-Nagar/pictures/blob/main/Conditional%20Routing.PNG)
-### This case study explores how dynamic user inputs can drive the execution of distinct workflow paths within an automated data process. By allowing users to select their preferred analysis route—such as filtering data by origin airport or airline—the workflow intelligently adapts in real time, enabling or disabling specific processing streams based on conditional logic. The result is a flexible, user-centric workflow that enhances efficiency, reduces unnecessary computation, and improves the overall user experience in data-driven decision-making environments.
-[Alteryx File](https://github.com/Shruti-Nagar/Alteryx-Portfolio/blob/main/conditional%20routing.yxwz)
+### ![Alteryx Workflow](https://github.com/Shruti-Nagar/pictures/blob/main/Insurance%20Claims.PNG)
+### Project Summary:
+This project highlights the power of interactive, user-controlled automation within Alteryx. It utilizes a flexible and dynamic workflow to analyze airline performance data, allowing users to choose their own path of analysis—either by Airport or Airline—through interface tools.
+
+### Goal:
+To enable dynamic and customizable data exploration based on user selections, without modifying the core workflow logic.
+
+### Key Workflow Highlights:
+
+#### Interface Tools Integration:
+Used List Box, Radio Button, and Action tools to create a user-friendly interface for choosing between different decision paths (by Airport or Airline).
+
+#### Conditional Workflow Execution:
+Implemented Enable/Disable Container logic to conditionally run different parts of the workflow based on user inputs.
+
+#### Customizable Analysis Paths:
+
+Airport Path: Filters by selected airport codes and shows the top 10 airports based on domestic flight volume.
+
+Airline Path: Filters by selected airline(s) and displays the first 10 records in ascending date order.
+
+#### Data Summarization & Filtering:
+Applied Summarize and Sample tools to show only the most relevant records per user selection.
+
+### Tools & Techniques Used:
+
+- Interface tools for user interaction
+- Conditional logic containers
+- Dynamic filtering with action updates
+- Data sorting and summarization
+
+### Outcome:
+Created a seamless, interactive Alteryx workflow where end users can drive the direction of analysis with minimal technical knowledge. This approach significantly enhances flexibility and user engagement in data analysis processes.
+
 
 ## 2. [Insurance Claims Using Alteryx Workflow](https://github.com/Shruti-Nagar/Alteryx-Portfolio/blob/main/Parsing%20Insurance%20Claims.yxmd)
 ### Project Summary:
@@ -12,7 +44,6 @@ This project demonstrates how to parse and transform complex PDF-converted insur
 ### Goal:
 To extract and summarize claim amounts based on Accident Month while aligning them with the Inception Date of the insurance policy.
 
-![Alteryx Workflow](https://github.com/Shruti-Nagar/pictures/blob/main/Insurance%20Claims.PNG)
 
 ### Key Workflow Highlights:
 
