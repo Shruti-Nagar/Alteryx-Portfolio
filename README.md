@@ -39,7 +39,7 @@ This project demonstrates how to parse and transform complex PDF-converted insur
 ### Goal:
 To extract and summarize claim amounts based on Accident Month while aligning them with the Inception Date of the insurance policy.
 ![Alteryx Workflow](https://github.com/Shruti-Nagar/pictures/blob/main/Insurance%20Claims.PNG)
-[Workflow](https://github.com/Shruti-Nagar/Alteryx-Portfolio/blob/main/Parsing%20Insurance%20Claims.yxmd)
+### [Workflow](https://github.com/Shruti-Nagar/Alteryx-Portfolio/blob/main/Parsing%20Insurance%20Claims.yxmd)
 
 ### Key Workflow Highlights:
 #### Data Preprocessing:
